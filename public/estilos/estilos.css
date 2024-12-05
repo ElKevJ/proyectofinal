@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #666;
+}
+header .icons {
+    display: flex;
+    gap: 15px;
+    
+}
+header .icons img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.container {
+    padding: 20px;
+    text-align: center;
+    height: 50%;
+}
+.container h1 {
+    color: #333;
+}
+.container p {
+    color: #666;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-top: 1px solid #ddd;
+    margin-top: 15%;
+}
+footer img {
+    width: 50px;
+    height: 50px;
+}
+#formula{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 6px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.card {
+    flex: 1 1 calc(50% - 10px);
+    box-sizing: border-box;
+    margin: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+.fondito{
+    background-image: url('/Imagenes/s.jpeg');
+    background-size: cover;
+}
+
+.nombres{
+    background-color: #333;
+}
+#preview {
+    margin-top: 20px;
+    max-width: 300px;
+    max-height: 300px;
+    border: 1px solid #ccc;
+    display: none;
+  }
